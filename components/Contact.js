@@ -23,7 +23,7 @@ const Contact = () => {
               </div>
               <div className="flex-1">
                 <h4 className="lg:text-xl text-lg mb-1">Email-Us :</h4>
-                <div>twitesoft@gmail.com</div>
+                <div>rajibcsit1@gmail.com</div>
               </div>
             </li>
             <li className="flex">
@@ -34,7 +34,7 @@ const Contact = () => {
               </div>
               <div className="flex-1">
                 <h4 className="lg:text-xl text-lg mb-1">Call Us:</h4>
-                <div>+8801914682468</div>
+                <div>+8801918111103</div>
               </div>
             </li>
             <li className="flex">
@@ -44,7 +44,7 @@ const Contact = () => {
                 </div>
               </div>
               <div className="flex-1">
-                <h4 className="lg:text-xl text-lg mb-1">Office :</h4>
+                <h4 className="lg:text-xl text-lg mb-1">Address:</h4>
                 <div>H# 469, R# 07, Avenue# 6, Mirpur-12 DOHS, Dhaka - 1216</div>
               </div>
             </li>
