@@ -1,6 +1,7 @@
 import Script from "next/script";
 import Navbar from "@/components/Navbar";
 import "../public/css/globals.css";
+import Footer from "@/components/Footer";
 
 export const metadata = {
   title: "Rajib Mia Rahid",
@@ -13,7 +14,7 @@ export default function RootLayout({ children }) {
       <body>
         <Navbar />
         {children}
-
+        <Footer />
         <Script src="./js/script.js" />
       </body>
     </html>
