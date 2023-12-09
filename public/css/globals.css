@@ -17,13 +17,29 @@
 }
 
 .hero-section {
-  background: linear-gradient(90deg, #020024, #e0f5f1 0, #fff4f4);
+  background: linear-gradient(90deg, #020024, #e4edeb 0, #f6f0f0);
 }
 .project_area {
-  background: linear-gradient(
-    90deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(252, 244, 244, 0.7595413165266106) 0%,
-    rgba(236, 245, 242, 1) 100%
-  );
+  background: #eeefee;
+}
+/* Start CSS For technology_area */
+.technology_area {
+  background: #fff;
+}
+.single_tech_item {
+  text-align: center;
+  border: 1px solid #eaebed;
+  box-shadow: 0 0.5em 1em -0.125em #8a8a8a1a, 0 0 0 1px #0a0a0a00;
+  padding: 10px;
+  border-radius: 5px;
+}
+.single_tech_item:hover {
+  box-shadow: 0 0.5em 1em -0.125em #8a8a8a1a, 0 0 0 1px #0a0a0a00;
+}
+.single_tech_item img {
+  margin: 0 auto;
+}
+.techlogy-img {
+  height: 40px;
+  width: 50px;
 }

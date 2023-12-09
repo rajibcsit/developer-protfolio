@@ -55,7 +55,7 @@ const ProjectsSection = () => {
   };
 
   return (
-    <section className="project_area pb-12 pt-12">
+    <section className="project_area pb-12 pt-16">
       <div className="container mx-auto px-12 py-4">
         <h2 className="text-center text-4xl font-bold  mt-4 mb-8 md:mb-12">My Recent Projects</h2>
         {/* <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
