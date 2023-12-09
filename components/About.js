@@ -23,13 +23,22 @@ const About = () => {
             <div className="justify-start mt-8">
               <h2 className="text-xl font-bold  mb-4">Social Connect</h2>
               <div className="socials flex flex-row gap-2">
-                <Link href="github.com">
+                <Link href="https://github.com/rajibcsit" target="_blank" rel="noreferrer">
                   <Image src={GithubIcon} alt="Github Icon" />
                 </Link>
-                <Link href="linkedin.com">
+                <Link
+                  href="https://www.linkedin.com/in/rajibmiarahid/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <Image src={LinkedinIcon} alt="Linkedin Icon" />
                 </Link>
-                <Link href="facebook.com" className="mt-1">
+                <Link
+                  href="https://www.facebook.com/rajibmia.rahid51"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="mt-1"
+                >
                   <Image src={FacebookIcon} alt="Facebook Icon" width={80} height={80} />
                 </Link>
               </div>

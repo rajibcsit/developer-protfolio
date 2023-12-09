@@ -23,7 +23,7 @@ function Skills() {
             <h2 className="text-center text-4xl font-bold  mt-4 mb-8 md:mb-12">My Skills</h2>
 
             <div className="technology-wrapper mb-16 mt-12">
-              <div className="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-7 gap-5">
+              <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-5">
                 <div className="single_tech_item ">
                   <Image src={php} className="techlogy-img" alt="logo" />
                   <p className="mt-2"> PHP</p>
