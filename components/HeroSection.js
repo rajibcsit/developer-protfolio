@@ -17,7 +17,7 @@ const HeroSection = () => {
             className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
           >
             <h1 className=" mb-4 text-xl sm:text-2xl lg:text-3xl lg:leading-normal font-extrabold">
-              <span className="text-transparent bg-clip-text bg-[#C181F7]">Hello, I&apos;m</span>
+              <span className="text-transparent bg-clip-text bg-[#30BEAD]">Hello, I&apos;m</span>
               <br></br>
               <TypeAnimation
                 sequence={["Rajib Mia Rahid", 1000, "Front-End Developer", 1000]}
@@ -33,13 +33,13 @@ const HeroSection = () => {
             <div>
               <Link
                 href="/#contact"
-                className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-[#D64CB7] hover:bg-slate-800 text-white"
+                className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-[#30BEAD] hover:bg-slate-800 text-white"
               >
                 Hire Me
               </Link>
               <Link
                 href="/"
-                className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-[#D64CB7] hover:bg-slate-800 text-white"
+                className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-[#30BEAD] hover:bg-slate-800 text-white"
               >
                 Download CV
               </Link>

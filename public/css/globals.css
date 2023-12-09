@@ -17,10 +17,11 @@
 }
 
 .hero-section {
-  background: linear-gradient(90deg, #020024, #e4edeb 0, #f6f0f0);
+  background: linear-gradient(90deg, rgba(211, 237, 231, 1) 0%, rgba(247, 239, 239, 1) 100%);
 }
+
 .project_area {
-  background: #eeefee;
+  background: linear-gradient(90deg, rgb(231 245 242) 0%, rgb(245 245 234) 100%);
 }
 /* Start CSS For technology_area */
 .technology_area {
@@ -42,4 +43,7 @@
 .techlogy-img {
   height: 40px;
   width: 50px;
+}
+.contact_area {
+  background: linear-gradient(49deg, rgb(241 247 246) 0%, rgb(227 233 230) 100%);
 }
