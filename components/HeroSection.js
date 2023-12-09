@@ -20,16 +20,15 @@ const HeroSection = () => {
               <span className="text-transparent bg-clip-text bg-[#C181F7]">Hello, I&apos;m</span>
               <br></br>
               <TypeAnimation
-                sequence={["Al-Hasan Sarkar", 1000, "SEO Analysis", 1000, "Digital Marketer", 1000]}
+                sequence={["Rajib Mia Rahid", 1000, "Front-End Developer", 1000]}
                 wrapper="span"
                 speed={50}
                 repeat={Infinity}
               />
             </h1>
             <p className="text-base sm:text-lg mb-6 lg:text-lg">
-              I&apos;m Al-Hasan Sarkar, Former SEO Analysis at Finch Data Soft. Currently, I&apos;m
-              working on IOVISIONBD with SEO Analysis. I&apos;m a Professional SEO Expert With
-              Digital Marketing.
+              I&apos;m Rajib Mia Rahid, I&apos;m a Front-End Developer. Currently, I&apos;m working
+              on TwiteSoft.
             </p>
             <div>
               <Link
@@ -54,7 +53,7 @@ const HeroSection = () => {
           >
             <div className="rounded-full bg-[#EAF5F2] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
               <Image
-                src="/images/profile.png"
+                src="/images/rahid.png"
                 alt="hero image"
                 className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
                 width={250}
