@@ -18,9 +18,14 @@ function Skills() {
   return (
     <div>
       <>
-        <section id="technology" className="technology_area page_area pt-24 pb-24">
-          <div className="container mx-auto px-12 py-4">
-            <h2 className="text-center text-4xl font-bold  mt-4 mb-8 md:mb-12">My Skills</h2>
+        <section
+          id="technology"
+          className="technology_area page_area pb-12 lg:pb-18 sm:pb-6  pt-12 lg:pt-18 sm:pt-6"
+        >
+          <div className="container mx-auto px-12 lg:py-4 sm:py-2">
+            <h2 className="text-center text-xl lg:text-4xl sm:text-base font-bold  lg:mt-4 sm:mt-2 mb-8 md:mb-12">
+              My Skills
+            </h2>
 
             <div className="technology-wrapper mb-16 mt-12">
               <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-5">

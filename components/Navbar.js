@@ -44,7 +44,7 @@ export default function Navbar() {
                     </Disclosure.Button>
                   </div>
                   <div className="flex lg:flex-1  items-center justify-center sm:items-stretch  sm:justify-between">
-                    <div className="flex flex-shrink-0 items-center text-base sm:text-lg lg:text-lg font-black ml-[81px]">
+                    <div className="flex flex-shrink-0 items-center text-base sm:text-lg lg:text-lg font-black ml-[81px] title">
                       <Link href="/">Rajib Mia Rahid</Link>
                     </div>
 

@@ -8,11 +8,13 @@ import Image from "next/image";
 const About = () => {
   return (
     <div>
-      <section className="bg-[#ffff] pt-24">
+      <section className="bg-[#ffff] page_area pb-12 lg:pb-18 sm:pb-6  pt-12 lg:pt-18 sm:pt-6">
         <div className="md:grid md:grid-cols-2 gap-8 items-center  px-4 xl:gap-16 sm:py-4 xl:px-16">
           <Image src="/images/about-image.png" width={500} height={500} alt="about-img" />
           <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
-            <h2 className="text-4xl font-bold  mb-4">About Me</h2>
+            <h2 className="text-xl lg:text-4xl sm:text-base font-bold  lg:mt-4 sm:mt-2 mb-8 md:mb-12">
+              About Me
+            </h2>
             <p className="text-sm lg:text-base">
               Hi, I am Rajib Mia Rahid. I have been working as a Web Developer for 1 years. Mainly I
               develop applications using PHP programming language and Laravel framework . I also use

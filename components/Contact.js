@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const Contact = () => {
   return (
-    <section className="contact_area pt-24 pb-24">
+    <section className="contact_area page_area pb-12 lg:pb-18 sm:pb-6  pt-12 lg:pt-18 sm:pt-6">
       <div className="container grid md:grid-cols-2 gap-4 mx-auto px-12 py-4">
         <h5 className="text-xl font-bold my-2">Let&apos;s Talk about your Project -</h5>
         <p className="text-sm lg:text-base mb-4 max-w-md">

@@ -20,28 +20,33 @@ const HeroSection = () => {
               <span className="text-transparent bg-clip-text bg-[#30BEAD]">Hello, I&apos;m</span>
               <br></br>
               <TypeAnimation
-                sequence={["Rajib Mia Rahid", 1000, "Front-End Developer", 1000]}
+                sequence={[
+                  "Rajib Mia Rahid",
+                  1000,
+                  "Software Developer",
+                  1000,
+                  "Web Developer",
+                  1000,
+                  "Front-End Developer",
+                  1000,
+                ]}
                 wrapper="span"
                 speed={50}
                 repeat={Infinity}
               />
             </h1>
             <p className="text-base sm:text-lg mb-6 lg:text-lg">
-              I&apos;m Rajib Mia Rahid, I&apos;m a Front-End Developer. Currently, I&apos;m working
-              on TwiteSoft.
+              I&apos;m Rajib Mia Rahid, I&apos;m a Web Developer. Currently, I&apos;m working on
+              TwiteSoft with Front-End Developer .
             </p>
             <div>
               <Link
-                href="/#contact"
-                className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-[#30BEAD] hover:bg-slate-800 text-white"
+                href="https://drive.google.com/file/d/1eeKGTZRRpLseiEI7drdL93FwGG18I1mT/view?usp=sharing"
+                target="_blank"
+                rel="noreferrer"
+                className="px-4 lg:px-6 sm:px-3 inline-block py-3  sm:w-fit rounded-full mr-4 bg-[#30BEAD] hover:bg-slate-800 text-white"
               >
-                Hire Me
-              </Link>
-              <Link
-                href="/"
-                className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-[#30BEAD] hover:bg-slate-800 text-white"
-              >
-                Download CV
+                Download Resume
               </Link>
             </div>
           </motion.div>
@@ -55,7 +60,7 @@ const HeroSection = () => {
               <Image
                 src="/images/rahid.png"
                 alt="hero image"
-                className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                className="hero_image sm:w-[100px] sm:h-[80px] lg:w-[250px] lg:h-[250px] absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
                 width={250}
                 height={250}
               />

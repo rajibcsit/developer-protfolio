@@ -7,7 +7,7 @@ const projectsData = [
   {
     id: 1,
     title: "ARTOFCSE-Elearning platform",
-    image: "/images/projects/artofcse.png",
+    image: "/images/projects/1.png",
     tag: ["All", "Web"],
     gitUrl: "/",
     previewUrl: "/",
@@ -55,15 +55,17 @@ const ProjectsSection = () => {
   };
 
   return (
-    <section className="project_area pb-12 pt-16">
-      <div className="container mx-auto px-12 py-4">
-        <h2 className="text-center text-4xl font-bold  mt-4 mb-8 md:mb-12">My Recent Projects</h2>
+    <section className="project_area page_area pb-24 lg:pb-24 sm:pb-12 pt-12 lg:pt-18 sm:pt-6">
+      <div className="container mx-auto px-12 lg:py-4 sm:py-2">
+        <h2 className="text-center text-xl lg:text-4xl sm:text-base font-bold  lg:mt-4 sm:mt-2 mb-8 md:mb-12">
+          My Recent Projects
+        </h2>
         {/* <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
           <ProjectTag onClick={handleTagChange} name="All" isSelected={tag === "All"} />
           <ProjectTag onClick={handleTagChange} name="Web" isSelected={tag === "Web"} />
           <ProjectTag onClick={handleTagChange} name="Mobile" isSelected={tag === "Mobile"} />
         </div> */}
-        <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
+        <ul ref={ref} className="grid md:grid-cols-2 gap-8 md:gap-12">
           {filteredProjects.map((project, index) => (
             <motion.li
               key={index}
