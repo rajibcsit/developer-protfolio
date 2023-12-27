@@ -23,7 +23,7 @@ const About = () => {
               Learning in the future. Please, keep me in your prayers.
             </p>
             <div className="justify-start mt-8">
-              <h2 className="text-xl font-bold  mb-4">Social Connect</h2>
+              <h2 className="text-xl font-bold  mb-4">Follow me on:</h2>
               <div className="socials flex flex-row gap-2">
                 <Link href="https://github.com/rajibcsit" target="_blank" rel="noreferrer">
                   <Image src={GithubIcon} alt="Github Icon" />

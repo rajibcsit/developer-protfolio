@@ -63,7 +63,7 @@ const Contact = () => {
                 id="email"
                 required
                 className="bg-[#ffffff] text-sm rounded-lg block w-full p-2.5"
-                placeholder="jacob@google.com"
+                placeholder="email"
               />
             </div>
             <div className="mb-6">
@@ -76,7 +76,7 @@ const Contact = () => {
                 id="subject"
                 required
                 className="bg-[#ffffff] text-sm rounded-lg block w-full p-2.5"
-                placeholder="Just saying hi"
+                placeholder="Subject"
               />
             </div>
             <div className="mb-6">
